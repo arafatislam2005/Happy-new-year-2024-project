@@ -112,3 +112,25 @@ body {
   background: none;
   color: #fff;
 }
+/* tim line section  */
+.time-line {
+  position: absolute;
+  gap: 300px;
+  left: 31%;
+  font-size: 32px;
+  text-align: center;
+  background-color: rgb(251, 129, 129);
+}
+.time-line-one {
+  color: #f00;
+}
+.time-line-button {
+  background-color: #f00;
+  padding: 16px 32px;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+}
+.NONE {
+  padding: 65% 0;
+}
