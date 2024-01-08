@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 5%;
+}
+/* section repo */
+.Banner {
+  width: 1380px;
+  height: 680px;
+}
+.repo {
+  position: absolute;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  padding: 7% 0;
+}
+.repo-one {
+  color: white;
+  position: absolute;
+  font-size: 32px;
+
+  left: 45%;
+  top: 38%;
+}
+.repo-two {
+  position: absolute;
+  color: white;
+  font-size: 72px;
+  left: 25%;
+  top: 43%;
+  text-align: center;
+}
+/* section offer  */
+.offer {
+  padding: 800px 0;
+}
+.offer-title {
+  line-height: 10%;
+}
+.offer-one {
+  position: relative;
+
+  left: 37%;
+  color: orangered;
+  font-size: 88px;
+}
+.offer-two {
+  position: relative;
+  font-size: 24px;
+  left: 35%;
+  color: orangered;
+}
+.offer-three {
+  position: relative;
+  font-size: 48px;
+  left: 470px;
+}
+.new-year {
+  width: 802px;
+  height: 500px;
+  padding: 0 18%;
+}
