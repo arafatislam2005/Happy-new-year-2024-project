@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -7,11 +7,17 @@ body {
 }
 
 /* section repo */
+
+#section-1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 .Banner {
   height: 680px;
 }
 .repo {
-  position: absolute;
   border-radius: 16px;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
   padding: 7% 0;
@@ -32,9 +38,6 @@ body {
   text-align: center;
 }
 /* section offer  */
-.offer {
-  padding: 800px 0 0 0;
-}
 
 .offer-title {
   line-height: 27%;
@@ -75,7 +78,6 @@ body {
   position: absolute;
 }
 .Vectorr-two {
-  width: 1380px;
   height: 680px;
 }
 .group {
@@ -99,12 +101,12 @@ body {
   padding: 0 16%;
 }
 .midnight-Dolor {
-  padding-right: 8%;
+  padding-right: 35%;
 }
 .midnight-two {
   color: rgba(255, 255, 255, 0.8);
   font-size: 18px;
-  padding: 0 17%;
+  padding: 0 25%;
 }
 .midnight-three {
   padding: 2% 17%;
@@ -116,6 +118,10 @@ body {
   color: #fff;
 }
 /* tim line section  */
+.time-line-color {
+  border-radius: 16px;
+  background-color: rgba(255, 0, 0, 0.05);
+}
 .time-line {
   padding: 65% 0 0 0;
   font-size: 32px;
@@ -171,6 +177,7 @@ body {
 }
 .terminal-all-div {
   padding: 10px 0;
+  text-align: center;
 }
 .terminal-new-year {
   padding-left: 18px;
