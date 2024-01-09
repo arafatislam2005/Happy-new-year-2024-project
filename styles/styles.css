@@ -1,10 +1,13 @@
 body {
   margin: 0;
-  padding: 5%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
 }
+
 /* section repo */
 .Banner {
-  width: 1380px;
   height: 680px;
 }
 .repo {
@@ -17,7 +20,6 @@ body {
   color: white;
   position: absolute;
   font-size: 32px;
-
   left: 45%;
   top: 38%;
 }
@@ -33,6 +35,7 @@ body {
 .offer {
   padding: 800px 0 0 0;
 }
+
 .offer-title {
   line-height: 27%;
 }
@@ -114,11 +117,9 @@ body {
 }
 /* tim line section  */
 .time-line {
-  padding: 65% 0;
-  bottom: 357%;
+  padding: 65% 0 0 0;
   font-size: 32px;
   text-align: center;
-  background-color: rgb(251, 129, 129);
 }
 .time-line-one {
   color: #f00;
@@ -130,8 +131,7 @@ body {
   border: none;
   font-size: 20px;
 }
-.NONE {
-}
+
 /* section terminal  */
 .terminal {
   position: absolute;
@@ -188,6 +188,91 @@ body {
 }
 /* six image section  */
 .section-img {
-  padding: 50% 0 0;
+  padding: 65% 0 0 3%;
   justify-content: center;
+}
+.gift-section {
+  position: absolute;
+  padding: 43% 0 0 3%;
+  line-height: 20px;
+}
+.gift-one {
+  color: #f00;
+  font-size: 24px;
+}
+.gift-two {
+  font-size: 48px;
+}
+.gift-three {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 896px;
+}
+/* footer section  */
+/* footer { 
+  width: 1600px;
+  height: 609px;
+  background: #070211;
+}
+.none {
+} */
+.images-all-icon {
+  margin: 20px;
+  height: 64px;
+  display: flex;
+}
+.call-icon {
+  width: 24px;
+  height: 24px;
+  padding-right: 20px;
+}
+#Facebook-icon {
+  padding-right: 10px;
+  display: flex;
+}
+/* middle subscribe section middle */
+.subscribe {
+  border-radius: 16px;
+  background-color: rgba(255, 0, 0, 0.05);
+  padding: 10% 0;
+  align-items: center;
+}
+.subscribe-images {
+  padding-left: 45%;
+}
+.subscribe-consectetur {
+}
+.subscribe-one {
+  text-align: center;
+  font-size: 48px;
+}
+.subscribe-two {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.search-bar {
+  height: 46px;
+  border-radius: 50px 0 0 50px;
+  padding-left: 10px;
+  font-size: 16px;
+  border: 1px solid rgb(192, 192, 192);
+  width: 30%;
+}
+.input-search {
+  padding-left: 35%;
+  display: flex;
+}
+#tag-h1-search {
+  font-size: 20px;
+  border-radius: 0 50px 50px 0;
+  height: 50px;
+  background-color: #f00;
+  border: 1px solid rgb(192, 192, 192);
+  width: 140%;
+}
+.bottom-tag {
+  padding-bottom: 10px;
 }
