@@ -114,9 +114,8 @@ body {
 }
 /* tim line section  */
 .time-line {
-  position: absolute;
-  gap: 300px;
-  left: 31%;
+  padding: 65% 0;
+  bottom: 357%;
   font-size: 32px;
   text-align: center;
   background-color: rgb(251, 129, 129);
@@ -132,5 +131,63 @@ body {
   font-size: 20px;
 }
 .NONE {
-  padding: 65% 0;
+}
+/* section terminal  */
+.terminal {
+  position: absolute;
+}
+.terminal-one {
+  color: #f00;
+  font-size: 24px;
+}
+.terminal-two {
+  font-size: 48px;
+  font-weight: 900;
+}
+.terminal-three {
+  font-size: 20px;
+  color: rgba(7, 2, 17, 0.6);
+  width: 393px;
+}
+.terminal-title {
+  padding: 34% 0 0;
+}
+
+.ellipse {
+  position: absolute;
+  left: 440px;
+  top: 100px;
+}
+#ellipse-border {
+  border: 15px solid #f00;
+  border-radius: 630px;
+  padding: 14px;
+  margin: auto;
+}
+.terminal-new-one {
+  position: absolute;
+  left: 70%;
+  padding: 7% 0 0;
+}
+.terminal-all-div {
+  padding: 10px 0;
+}
+.terminal-new-year {
+  padding-left: 18px;
+  font-size: 48px;
+  color: #f00;
+}
+.terminal-new-dolor {
+  font-size: 28px;
+  color: rgba(7, 2, 17, 0.6);
+  padding: 0 20px 0;
+  right: 10%;
+}
+.terminal-img {
+  padding-left: 10px;
+}
+/* six image section  */
+.section-img {
+  padding: 50% 0 0;
+  justify-content: center;
 }
